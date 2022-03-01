@@ -9,7 +9,7 @@ if (result === 0) {
     result++;
     display.textContent = result;
     if (result === 1) {
-        counter.textContent = "Eat!";
+      counter.textContent = "Eat!";
       const gameTime = setTimeout(game, 10000);
 
       function game() {
@@ -21,4 +21,3 @@ if (result === 0) {
     }
   }
 }
-
