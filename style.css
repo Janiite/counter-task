@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./cookeMonter.jpg);
+    background-size: cover;
+    
+}
+
+body, .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    
+
+}
+
+.item {
+    margin: 4% 4%;
+}
+
+button {
+    width: 50%;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 16px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7203256302521008) 0%, rgba(0,212,255,1) 100%);
+font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
